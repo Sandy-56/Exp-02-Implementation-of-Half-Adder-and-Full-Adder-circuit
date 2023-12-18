@@ -1,3 +1,5 @@
+## Name: Santhosh D M
+## Reg.no:212223050044
 # Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
 
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
