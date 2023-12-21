@@ -36,8 +36,7 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
-### 
-Program:
+### Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 HALF ADDER
@@ -59,32 +58,30 @@ assign sum = ((a^b)^c);
 assign carry = ((a&b)|(b&c)|(c&a));
 endmodule
 ```
-Developed by: Santhosh D M
-RegisterNumber: 23013934
-*/
-Logic symbol & Truthtable
-RTL realization
+## Truth table
+Half adder
+![291242929-e917b3ac-1816-4978-908d-2ae7478dd918](https://github.com/Sandy-56/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/152118022/0cfe64eb-fe0c-46fe-a7d6-79cb6fbb335a)
+Full adder
+![291243156-abedc1c1-49ab-4853-b02a-739e2553ba88](https://github.com/Sandy-56/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/152118022/bf2e6ca5-be40-4e9b-865a-6d34b1cc0488)
 
-### Output:
-### RTL
+### RTL viewer
+
 HALF ADDER
-![267689047-a7cc3d34-404f-43f5-9cbc-d9f5f5ba28e9](https://github.com/Sandy-56/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/152118022/3756be55-2a82-430e-9c22-6d9eece9112a)
+![291243374-c07ee31d-47f9-465e-b556-63e83091da5e](https://github.com/Sandy-56/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/152118022/a5f58928-0cdc-4342-b1d7-5fc7c3717bb5)
+
 FULL ADDER
-![267689278-7667c24f-a414-4e2b-840e-2ce0335dfbae](https://github.com/Sandy-56/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/152118022/350f56e0-796d-487d-9a06-0735f15b4b06)
+![291243508-c8fbda02-6596-4b69-92be-d2e23b879e4d](https://github.com/Sandy-56/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/152118022/8e886da1-b810-4d31-85b3-ed004468fcd2)
+
 
 
 ### TIMING DIAGRAM
 HALF ADDER
+![291247827-f3342818-9d29-4b11-b6f4-e08152766f67](https://github.com/Sandy-56/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/152118022/46e31458-91c8-451f-ab48-8a7de5087a96)
 
-![267689451-61076839-9c19-4192-a86a-d7233a325961](https://github.com/Sandy-56/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/152118022/3898f06e-6f1c-4c3e-9073-98f23b809bbf)
 FULL ADDER
-![267689613-e5f0bbf9-9197-4bbf-a392-1e1dcad2f804](https://github.com/Sandy-56/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/152118022/8b92bf6d-3a46-4382-a980-bd51388e45c4)
+![291248032-ef0b46e5-ac8c-4449-be68-11884b873cc6](https://github.com/Sandy-56/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/152118022/1dc63f37-7efe-47b2-8924-a94461f94bff)
 
-### TRUTH TABLE 
-HALF ADDER
-![267688455-b8abff6e-d197-4edd-9219-a69d9cb76aa8](https://github.com/Sandy-56/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/152118022/d12eb37f-6bfd-4e44-a9d1-1dad50529194)
-FULL ADDER
-![267688520-7278c4df-a0ac-43c2-b0e0-75a0dffe843a](https://github.com/Sandy-56/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/152118022/ecf55bf9-75d1-4f9c-a159-be1098dfd6df)
+
 
 ### Result:
 Thus the different digital IC's are studied and the truth table for different logic gates are verified.
